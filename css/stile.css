@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    background-color: #2C2828;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+
+main, footer {
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+header a {
+    text-decoration: none;
+    color:#2C2828;
+    background-color: #d9d9d9;
+    text-decoration-color:#2C2828;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+header a:hover {
+    color: #2C2828;
+    text-decoration: underline;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #d9d9d9;
+}
+
+header p {
+    margin: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+header nav ul {
+    margin:0;
+    padding:50px;
+    list-style-type:none;
+    display:flex;
+    gap: 20px;
+}
+section.hero {
+    background:#2C2828;
+}
+
+
+section.hero h1 {
+    margin: 0;
+    padding: 40px 10px;
+    font-size:40px;
+    color: rgba(255,255,255,0.9);
+    font-weight: 900;
+}
+
+section.hero p {
+    margin: 0;
+    padding: 80px 20px;
+    font-size:30px;
+    font-weight: 600px;
+    font-style:italic;
+    color:rgba(255,255,255,0.9)
+}
+
+main {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+
+main div.card {
+    background: #d9d9d9;
+    border-radius: 12px;
+    position: relative;
+}
+
+
+main div.card img {
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+
+main div.card h2 {
+    margin: 20px;
+    padding: 20px 20px 4px 20px;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+main div.card p {
+    margin: 30px;
+    padding: 0 20px 20px 20px;
+    font-size: 24px;
+    line-height: 1.5; 
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: #d9d9d9;
+    height: 210px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer a {
+    font-weight: 300;
+    font-style: italic;
+    color: #2C2828;
+}
+
+nav {
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    color: #2C2828;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d9d9d9;
+  }
+  
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #2C2828;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.header-image {•
+background-image: url("immagini/mappamondo1.png");}
